@@ -1,0 +1,17 @@
+{
+  "name": "professionalss",
+  "version": "1.0.0",
+  "description": "PSS Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Oswaldo Medina",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
