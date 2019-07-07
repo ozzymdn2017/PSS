@@ -1,11 +1,12 @@
-$text-color: #C9CFBB;
-$menu-bg: #3B0D11;
-$menu-hover: #B4C1A7;
-$menu-border: #555;
-
 $primary-color: #3B5249;
-$dark-color: #3B0D11;
-$light-color: #BEC5AD;
+$dark-color: rgb(143, 14, 25);
+$light-color:#fff;
+$text-color: $light-color;
+$text-color-hover: #3b0d11;
+$menu-bg: rgba(0,0,0,0.7);
+$menu-border: #3B0D11;
+
+
 
 .container {
     max-width: 1180px;
@@ -14,130 +15,56 @@ $light-color: #BEC5AD;
     padding: 0 3rem;
 }
 
-//Slider
-.slider {
-    background:white;
-    margin:50px auto;
-    height:350px;
-    width:600px;
-    border:10px solid white;
-    border-radius: 10px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    
+
+
+.contact {
+margin: 10px;
+padding: 10px;
+}
+
+.landing-inner {
+  margin-top: 2rem;
+
+  h1 {
+    width: 100%;
+    text-align: center;
   }
+}
+
+
+.card {
+  display: flex;
+  transition: 0.3s;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.card-container {
   
+  border: solid 1px $light-color;
+  border-radius: 5px;
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  background: $dark-color;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   
-  .slider:before {
-    content:"";
-    position:absolute;
-    background:rgba(0,0,0,.6);
-    height:150px;
-    width:285px;
-    margin-top:216px;
-    margin-left:-6px;
-    transform: skewY(-5deg);
-    -ms-transform: skewY(-5deg); /* IE 9 */
-    -webkit-transform: skewY(-5deg); /* Safari and Chrome */
-    z-index:-1;
-    filter:blur(7px);
-    -webkit-filter:blur(7px);
-    -moz-filter:blur(7px);
-    -o-filter:blur(7px);
-    -ms-filter:blur(7px);
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba($dark-color, $alpha: 0.7)
   }
-  
-  .slider:after {
-    content:"";
-    position:absolute;
-    z-index:-5; /* broken */
-    background:rgba(0,0,0,.6);
-    height:150px;
-    width:285px;
-    margin-top:216px;
-    margin-left:320px;
-    transform:skewY(5deg);
-    -ms-transform:skewY(5deg); /* IE 9 */
-    -webkit-transform:skewY(5deg); /* Safari and Chrome */
-    filter:blur(7px);
-    -webkit-filter:blur(7px);
-    -moz-filter:blur(7px);
-    -o-filter:blur(7px);
-    -ms-filter:blur(7px);
-  }
-  
-  .slider .btnLeft {
-    position:absolute;
-    margin-top:165px;
-      border-top:15px solid transparent;
-      border-bottom:15px solid transparent; 
-      border-right:15px solid white;
-    opacity:.3;
-    margin-left:20px;
-    transition:all .25s ease-in-out;
-    -moz-transition:all .25s ease-in-out;
-    -webkit-transition:all .25s ease-in-out;
-  }
-  
-  .slider .btnLeft:before {
-    content:"";
-    position:absolute;
-    background:rgba(200,200,200,.4);
-    height:50px;
-    width:50px;
-    -webkit-border-radius:100%;
-    border-radius:100%;
-    margin-left:-15px;
-    margin-top:-25px;
-    transition:all .25s ease-in-out;
-    -moz-transition:all .25s ease-in-out;
-    -webkit-transition:all .25s ease-in-out;
-  }
-  
-  .slider .btnLeft:hover {
-    opacity:1;
-    cursor:pointer;
-  }
-  
-  
-  .slider .btnRight {
-    position:absolute;
-    margin-top:165px;
-      border-top:15px solid transparent;
-      border-bottom:15px solid transparent;
-      border-left:15px solid white;
-    opacity:.5;
-    margin-left:565px;
-    transition:all .25s ease-in-out;
-    -moz-transition:all .25s ease-in-out;
-    -webkit-transition:all .25s ease-in-out;
-  }
-  
-  .slider .btnRight:before {
-    content:"";
-    position:absolute;
-    background:rgba(200,200,200,.4);
-    height:50px;
-    width:50px;
-    -webkit-border-radius:100%;
-    border-radius:100%;
-    margin-left:-35px;
-    margin-top:-25px;
-    transition:all .25s ease-in-out;
-    -moz-transition:all .25s ease-in-out;
-    -webkit-transition:all .25s ease-in-out;
-  }
-  
-  .slider .btnRight:hover {
-    opacity:1;
-    cursor:pointer;
-  }
-  
- 
-  
-  .hidden {
-    display: none;
-  }
+}
+
+#footer-container {
+  height: 40vh;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
