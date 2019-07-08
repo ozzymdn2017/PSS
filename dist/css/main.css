@@ -209,7 +209,7 @@ nav {
 #safety {
   margin: 0;
   padding: 0;
-  background: url("/dist/img/IMG_8308-1.jpg") no-repeat center/cover;
+  background: url(/dist/img/IMG_8308-1.jpg) no-repeat center/cover;
   width: 100%;
   min-height: 100vh;
   position: relative;
