@@ -8,7 +8,6 @@
 
 body {
   font-family: 'PT Serif', sans-serif;
-  background-color: #7798AB;
   margin: 0;
   height: 100%;
 }
@@ -55,6 +54,10 @@ footer {
   padding: .5rem 0;
   justify-content: space-evenly;
   border-top: 2px solid $light-color;
+
+  &-container {
+    display: flex;
+  }
   
 
   #copyright {
@@ -123,7 +126,7 @@ nav {
 #showcase {
     margin: 0;
     padding: 0;
-    background: url('/dist/img/IMG_9342-1.jpg') no-repeat center/cover;
+    background: url('../img/equipment-factory-heavy-257700.jpg') no-repeat center/cover;
     width: 100%;
     height: 100%;
     position: relative;
@@ -144,10 +147,11 @@ nav {
         font-size: 2rem;
     }
 }
+// Safety
 #safety {
     margin: 0;
     padding: 0;
-    background: url('/dist/img/IMG_8308-1.jpg') no-repeat center/cover;
+    background: url('../img/IMG_8308-1.jpg') no-repeat center/cover;
     width: 100%;
     min-height: 100vh;
     position: relative;
@@ -168,11 +172,11 @@ nav {
     }
 }
 
-
+// About Section
 #about {
     margin: 0;
     padding: 0;
-    background: url('/dist/img/IMG_2370.jpeg') no-repeat center/cover;
+    background: url('../img/IMG_2370.jpeg') no-repeat center/cover;
     width: 100%;
     min-height: 100vh;
     position: relative;
@@ -192,10 +196,12 @@ nav {
         font-size: 2rem;
     }
 }
+
+//Contact Section
 #contact {
     margin: 0;
     padding: 0;
-    background: url('/dist/img/IMG_8308-1.jpg') no-repeat center/cover;
+    background: url('../img/IMG_8308-1.jpg') no-repeat center/cover;
     width: 100%;
     min-height: 100vh;
     position: relative;
