@@ -1,148 +1,19 @@
-$primary-color: #3B5249;
-$dark-color: rgb(143, 14, 25);
-$light-color:#fff;
-$text-color: $light-color;
-$text-color-hover: #3b0d11;
-$menu-bg: rgba(0,0,0,0.7);
-$menu-border: #3B0D11;
+
 
 
 
 .container {
-    max-width: 1180px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0 3rem;
-}
-
-
-
-.contact {
-margin: 10px;
-padding: 10px;
-}
-
-.landing-inner {
-  margin-top: 2rem;
-
-  h1 {
-    width: 100%;
-    text-align: center;
-  }
-}
-
-
-.card {
-  display: flex;
-  transition: 0.3s;
-  justify-content: center;
-  justify-items: center;
-  margin-top: 20px;
-}
-
-.card-container {
-  
-  border: solid 1px $light-color;
-  border-radius: 5px;
-  height: 250px;
-  width: 250px;
-  margin: 10px;
-  padding: 10px;
-  background: $dark-color;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  
-
-  &:hover {
-    box-shadow: 0 8px 16px 0 rgba($dark-color, $alpha: 0.7)
-  }
-}
-
-#footer-container {
-  height: 40vh;
   width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 
 .hidden {
   display: none;
 }
 
+
 //Media Queries
-@media screen and (max-width: 580px) {
-  hide-on-small {
-      display: none;
-  }
-
-  #logo {
-    display: none;
-  }
-
-  #showcase {
-      height: 50vh;
-
-      .container {
-          margin-top: 15vh;
-      }
-
-      h1 {
-          font-size: 3rem;
-      }
-
-      h2 {
-          font-size: 1.5rem;
-      }
-  }
-  nav {
-  height: auto;
-  border-bottom: 0;
-
-  ul {
-    display: none;
-    height: auto;
-  }	
-
-  li {
-    width: 100%;
-    float: left;
-    position: relative;
-  }
-
-  a {
-    text-align: left;
-    width: 100%;
-    text-indent: 25px;
-    background: $menu-bg;	 
-    border-bottom: 1px solid $menu-border;
-  }  	
-
-   a:hover {
-    background: $light-color;
-    color: $dark-color;
-  }
-
-  a#openup:after {
-    content:"|||";
-    transform:rotate(-90deg);
-    -ms-transform:rotate(-90deg); /* IE 9 */
-    -webkit-transform:rotate(-90deg); /* Safari and Chrome */
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    position: absolute;
-    right: 5px;
-    top: 20px;
-  }
-        
-  a#openup {
-    display: block;
-    background-color: $menu-bg;
-    width: 100%;
-    position: relative;
-  }
-} //nav
-} // media
-
-.cf:before, .cf:after { content:""; display:table; }
-.cf:after { clear:both; }
-.cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
