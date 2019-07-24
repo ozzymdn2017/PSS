@@ -18,21 +18,18 @@ html {
   height: 100%;
 }
 
-img {
-    width: 100%;
+#logo {
+  vertical-align: middle;
 }
 
-
-
-
-/* Navigation */
-nav {
- 
-} 
+.navbar-nav {
+	margin-left:auto;
+}
 
 footer {
   bottom: 0;
-  position: fixed;
+  left: 0;
+  position: static;
 }
 
 

@@ -4,7 +4,8 @@
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  color: #7F0B0B; }
 
 .hidden {
   display: none; }
@@ -24,10 +25,13 @@ body {
 html {
   height: 100%; }
 
-img {
-  width: 100%; }
+#logo {
+  vertical-align: middle; }
 
-/* Navigation */
+.navbar-nav {
+  margin-left: auto; }
+
 footer {
   bottom: 0;
-  position: fixed; }
+  left: 0;
+  position: static; }
