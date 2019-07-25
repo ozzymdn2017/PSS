@@ -19,6 +19,10 @@ body {
   height: 100%;
 }
 
+header {
+  background-color: rgba($primary-color, $alpha: 0.6);
+}
+
 .jumbotron {
   margin: 0;
   padding: 0;
@@ -47,6 +51,5 @@ footer {
   left: 0;
   position: static;
 }
-
 
 

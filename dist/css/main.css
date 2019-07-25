@@ -26,6 +26,9 @@ body {
   margin: 0;
   height: 100%; }
 
+header {
+  background-color: rgba(0, 0, 0, 0.6); }
+
 .jumbotron {
   margin: 0;
   padding: 0; }
