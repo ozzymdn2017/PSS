@@ -8,10 +8,20 @@
   padding: 0;
 }
 
+.carousel-inner img {
+  height: 75vh;
+  width: 100%;
+  
+}
 body {
   font-family: 'PT Serif', sans-serif;
   margin: 0;
   height: 100%;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -22,9 +32,15 @@ html {
   vertical-align: middle;
 }
 
+#info-boxes {
+  margin: 1rem;
+  padding: 1rem;
+}
+
 .navbar-nav {
 	margin-left:auto;
 }
+
 
 footer {
   bottom: 0;

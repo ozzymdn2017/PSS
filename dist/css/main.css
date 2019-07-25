@@ -5,7 +5,7 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  color: #7F0B0B; }
+  color: #000000; }
 
 .hidden {
   display: none; }
@@ -17,16 +17,28 @@
   margin: 0;
   padding: 0; }
 
+.carousel-inner img {
+  height: 75vh;
+  width: 100%; }
+
 body {
   font-family: 'PT Serif', sans-serif;
   margin: 0;
   height: 100%; }
+
+.jumbotron {
+  margin: 0;
+  padding: 0; }
 
 html {
   height: 100%; }
 
 #logo {
   vertical-align: middle; }
+
+#info-boxes {
+  margin: 1rem;
+  padding: 1rem; }
 
 .navbar-nav {
   margin-left: auto; }
