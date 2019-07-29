@@ -39,6 +39,10 @@ html {
 #info-boxes {
   margin: 1rem;
   padding: 1rem;
+
+  .row {
+    margin-left: 5rem;
+  }
 }
 
 .navbar-nav {
@@ -51,5 +55,28 @@ footer {
   left: 0;
   position: static;
 }
+
+//Media Queries
+@media (max-width: 575px) {
+  #info-boxes {
+    margin: 1rem;
+    padding: 1rem;
+    
+    .row {
+      margin-left: 0;
+    }
+  }
+}
+@media (max-width: 768px) {
+  #info-boxes {
+    margin: 1rem;
+    padding: 1rem;
+    
+    .row {
+      margin-left: 0;
+    }
+  }
+}
+
 
 
