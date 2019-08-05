@@ -41,7 +41,8 @@ html {
 
 #info-boxes {
   margin: 1rem;
-  padding: 1rem; }
+  padding: 1rem;
+  margin-left: 5rem; }
 
 .navbar-nav {
   margin-left: auto; }
@@ -50,3 +51,6 @@ footer {
   bottom: 0;
   left: 0;
   position: static; }
+
+#Contact {
+  justify-content: center; }
