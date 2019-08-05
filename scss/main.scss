@@ -39,8 +39,9 @@ html {
 #info-boxes {
   margin: 1rem;
   padding: 1rem;
-  margin-left: 5rem;
-
+  justify-content: auto;
+  justify-items: auto;
+  justify-self: auto;
 }
 
 
@@ -58,5 +59,8 @@ footer {
 
 
 #Contact {
-  justify-content: center;
+  justify-content: auto;
+  justify-items: auto;
+  justify-self: auto;
+  
 }
