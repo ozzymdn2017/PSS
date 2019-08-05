@@ -39,9 +39,12 @@ html {
 #info-boxes {
   margin: 1rem;
   padding: 1rem;
-  margin-left: 5rem;
-
+  justify-content: auto;
+  justify-items: auto;
+  justify-self: auto;
 }
+
+
 
 .navbar-nav {
 	margin-left:auto;
@@ -56,6 +59,14 @@ footer {
 
 
 #Contact {
+<<<<<<< HEAD
   justify-content: center;
 }
 
+=======
+  justify-content: auto;
+  justify-items: auto;
+  justify-self: auto;
+  
+}
+>>>>>>> d6a8e8c3c0ca182cb4e8af94779647f4a4c95e58

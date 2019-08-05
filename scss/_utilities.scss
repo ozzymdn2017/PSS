@@ -14,9 +14,26 @@ $secondary-color: #70B099;
 }
 
 
-.hidden {
-  display: none;
-}
+
 
 
 //Media Queries
+//Small screens
+@media(max-width: 576px) {
+  
+}
+
+//Medium Screens
+@media(min-width: 576px) and (max-width:768px) {
+
+}
+
+//Large Screens
+@media(min-width:769) and (max-width: 1100 px) {
+
+}
+
+//X=Large Screens
+@media(min-width:1100) and (max-width: 1280 px) {
+
+}
