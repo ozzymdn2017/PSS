@@ -17,6 +17,7 @@ body {
   font-family: 'PT Serif', sans-serif;
   margin: 0;
   height: 100%;
+  text-align: center;
 }
 
 header {
@@ -24,8 +25,9 @@ header {
 }
 
 .jumbotron {
-  margin: 0;
-  padding: 0;
+  margin: 1rem;
+  padding: 1rem;
+
 }
 
 html {
@@ -34,6 +36,13 @@ html {
 
 #logo {
   vertical-align: middle;
+}
+
+.row {
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  text-align: center;
 }
 
 #info-boxes {
@@ -59,14 +68,8 @@ footer {
 
 
 #Contact {
-<<<<<<< HEAD
-  justify-content: center;
-}
-
-=======
   justify-content: auto;
   justify-items: auto;
   justify-self: auto;
   
 }
->>>>>>> d6a8e8c3c0ca182cb4e8af94779647f4a4c95e58

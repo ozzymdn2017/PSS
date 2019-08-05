@@ -8,8 +8,6 @@ $secondary-color: #70B099;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
   color: $primary-color;
 }
 
@@ -21,10 +19,11 @@ $secondary-color: #70B099;
 //Small screens
 @media(max-width: 576px) {
   
+  
 }
 
 //Medium Screens
-@media(min-width: 576px) and (max-width:768px) {
+@media(min-width: 577px) and (max-width:768px) {
 
 }
 
